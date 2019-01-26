@@ -1,0 +1,23 @@
+{
+
+  "iscontentasset": {
+    "scope": "isml",
+    "prefix": "contentasset",
+    "body": ["<iscontentasset", "namecontentasset=\"$1\"", "aid=\"$2\"", "/>"],
+    "description": "iscontentasset" 
+  },
+
+  "isformgroup": {
+    "scope": "isml",
+    "prefix": "formgroup",
+    "body": ["<isformgroup", "nameformgroup=\"$1\"", "field=\"$2\"", "fieldtype=\"$3\"", "classcsswrapper=\"$4\"", "classcssfield=\"$5\"", "classcsslabel=\"$6\"", "labelafter=\"$7\"", "invalidfeedback=\"$8\"", "hasfloatlabel=\"$9\"", "valueexample=\"$10\"", "fieldhasautofocus=\"$11\"", "/>"],
+    "description": "isformgroup" 
+  },
+
+  "isformfield": {
+    "scope": "isml",
+    "prefix": "formfield",
+    "body": ["<isformfield", "nameformfield=\"$1\"", "fieldata=\"$2\"", "type=\"$3\"", "classcss=\"$4\"", "csslabel=\"$5\"", "hasautofocus=\"$6\"", "/>"],
+    "description": "isformfield" 
+  }
+}

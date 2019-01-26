@@ -1,0 +1,15 @@
+{
+  "name": "theme_sfra",
+  "version": "0.0.1",
+  "description": "theme to personalize storefront",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload:app_custom_theme" : "cd ./app_custom_theme/ && npm run uploadCartridge",
+    "upload:sfra" : "cd ./storefront-reference-architecture/ && npm run uploadCartridge",
+    "upload:all" : "npm run upload:sfra  && npm run upload:app_custom_theme",
+    "build:app_custom_theme": "cd ./app_custom_theme/ && npm run compile:js && npm run compile:scss",
+    "build:sfra": "cd ./storefront-reference-architecture && npm run compile:js && npm run compile:scss && npm run compile:fonts"
+  },
+  "author": "Esteban RIOS AGUIRRE"
+}

@@ -1,0 +1,6 @@
+{
+    "files.include": {
+        "../../../dw-api-types/*.d.ts":true,
+        "../../../dw-api-types/**/*.d.ts":true,
+      }
+}
