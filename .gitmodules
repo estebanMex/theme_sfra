@@ -1,3 +1,6 @@
 [submodule "storefront-reference-architecture"]
 	path = storefront-reference-architecture
 	url = git@github.com:estebanMex/storefront-reference-architecture.git
+[submodule "app_custom_theme"]
+	path = app_custom_theme
+	url = git@github.com:estebanMex/app_custom_theme.git
