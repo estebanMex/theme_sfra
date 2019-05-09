@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "git submodule foreach git pull origin master",
     "upload:app_custom_theme" : "cd ./app_custom_theme/ && npm run uploadCartridge",
     "upload:sfra" : "cd ./storefront-reference-architecture/ && npm run uploadCartridge",
     "upload:all" : "npm run upload:sfra  && npm run upload:app_custom_theme",
