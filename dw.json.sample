@@ -1,0 +1,9 @@
+{
+    "username": "USERNAME",
+    "password": "PASSWORD@1",
+    "hostname": "HOSTNAME.demandware.net",
+    "version": "VERSION_0001",
+    "code-version": "VERSION_0001",
+    "verbose": false,
+    "exclude": ["**/node_modules/**"]
+}
