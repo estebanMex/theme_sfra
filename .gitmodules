@@ -4,3 +4,6 @@
 [submodule "app_custom_theme"]
 	path = app_custom_theme
 	url = git@github.com:estebanMex/app_custom_theme.git
+[submodule "page-designer-reference"]
+	path = page-designer-reference
+	url = git@github.com:estebanMex/page-designer-reference.git
