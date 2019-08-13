@@ -1,42 +1,48 @@
 # BASIC PROJECT SFRA
 
-## Getting Started
+### Getting Started
 
 ### Prerequisites
 
 ### Installing
 
-Clone this repository
+    Clone this repository
 
     git clone git@github.com:estebanMex/theme_sfra.git
 
+### Create sfra code sub module
 
-Create sfra code sub module 
-    
     git submodule add git@github.com:estebanMex/storefront-reference-architecture.git storefront-reference-architecture
 
-Create file dw.json to upload in every cartridge with a link phisique to update only file if need change password
+#### Pull code submodule
 
-    ln -i ./dw.json ./storefront-reference-architecture/dw.json
+        git submodule update --init
 
+### Create file dw.json
 
-## Deployment
+    To upload in every cartridge we need a dw.json
+    You can create a link phisique to update only file if need change password
 
-## Built With
+        example:
 
-## Contributing
+            ln -i ./dw.json ./storefront-reference-architecture/dw.json
 
-## Versioning
+### Deployment
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+### Built With
 
-## Authors
+### Contributing
 
-* **Esteban RIOS* - *Initial work* - [estebanMex](https://github.com/estebanMex)
+### Versioning
 
+    We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## License
+### Authors
 
-This project is licensed under the TBD License - see the [LICENSE.md](LICENSE.md) file for details
+    - _Esteban RIOS_ - _Initial work_ - [estebanMex](https://github.com/estebanMex)
 
-## Acknowledgments
+### License
+
+    This project is licensed under the TBD License - see the [LICENSE.md](LICENSE.md) file for details
+
+### Acknowledgments
